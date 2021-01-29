@@ -1,0 +1,191 @@
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  text-decoration: none;
+  font-family: "sfmono-regular", consolas, "liberation mono", menlo, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+.main {
+  margin: 20px 300px;
+  background-color: transparent;
+  max-height: 90vh !important;
+}
+
+.header {
+  width: auto;
+  height: 50px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-data-1 {
+  display: flex;
+  flex: 1 1 0;
+  text-align: left;
+  justify-content: flex-start;
+  font-weight: 200;
+  font-style: normal;
+  color: #999 !important;
+  font-size: 19px;
+}
+
+.m-data-2 {
+  display: flex;
+  flex: 1 1 0;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.m-data-2 nav {
+  font-family: "sfmono-regular", consolas, "liberation mono", menlo, monospace;
+  font-size: 18px;
+  font-weight: 50;
+  font-style: normal;
+  color: #999 !important;
+  line-height: 1.3em;
+  letter-spacing: 0;
+  text-rendering: optimizelegibility;
+}
+
+.m-data-2 nav a:hover {
+  color: white;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  padding: 15px 40px;
+  color: white;
+  font-size: 22px;
+  font-family: "sfmono-regular", consolas, "liberation mono", menlo, monospace;
+  font-weight: 300;
+}
+
+.windows {
+  margin-top: 25px;
+  height: 25px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1px solid #292929;
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+  box-sizing: border-box;
+}
+
+.windows .dot {
+  margin-left: 12px;
+  width: 11px;
+  height: 11px;
+  border-radius: 5px;
+  background: #292929;
+  box-sizing: border-box;
+}
+
+.windows-content {
+  border: 1px solid #292929;
+  border-bottom: none;
+  height: 360px;
+  -webkit-box-pack: justify;
+  justify-content: flex-start;
+  padding: 20px;
+  position: relative;
+  border-image: linear-gradient(to bottom, #292929 0%, #292929 50%, #171717 100%);
+  border-image-slice: 1;
+}
+
+.windows-content span {
+  color: blueviolet;
+}
+
+.windows-content ul {
+  list-style: none;
+  display: block;
+  justify-content: flex-start;
+}
+
+.windows-content ul li, .windows-content ul a {
+  text-decoration: underline;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.windows-content ul a:hover {
+  color: #abe22b;
+}
+
+.mail {
+  text-decoration: underline;
+  color: #999999;
+}
+
+.mail:hover {
+  color: whitesmoke;
+}
+
+.footer {
+  width: calc(100% - 300px);
+  height: 50px;
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+}
+
+.footer .footer-div {
+  padding: 0 40px;
+  flex: 1 1 0;
+  position: relative;
+}
+
+.footer .footer-div span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footer-div span .left {
+  display: flex;
+  flex: 1 1 0;
+  text-align: left;
+  justify-content: flex-start;
+  color: whitesmoke;
+}
+
+.footer .footer-div span .left a {
+  margin-left: 5px;
+}
+
+.footer .footer-div span .right {
+  display: flex;
+  flex: 1 1 0;
+  text-align: right;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.footer .footer-div span .right a {
+  margin-right: 10px !important;
+}
+
+.footer .footer-div span .right a:hover {
+  color: blueviolet;
+}
+
+/*# sourceMappingURL=app.css.map */
+
+/*# sourceMappingURL=app.css.map */
